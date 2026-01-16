@@ -1,0 +1,12 @@
+jupyter
+notebook
+pandas
+numpy
+matplotlib
+transformers
+datasets
+evaluate
+seqeval
+torch
+accelerate
+requests
