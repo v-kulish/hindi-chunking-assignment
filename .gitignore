@@ -3,7 +3,7 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
-data/
+
 my_awesome_wnut_model/
 results_en_uncased/
 results_hindi_ft/
