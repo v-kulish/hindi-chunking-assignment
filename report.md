@@ -61,3 +61,6 @@ Three models were compared to understand how pre-training domain affects perform
 - **Tutorial Reference**: The workflow in Part 1 follows the [Hugging Face Token Classification Tutorial](https://huggingface.co/docs/transformers/tasks/token_classification).
 - **Dataset Credit**: The dataset was provided by the university server (Hindi HDTB-UD).
 - **Model Credit**: The fine-tuned Hindi model used in Experiment 3 was provided by `mirfan899` on Hugging Face.
+
+## AI Usage Disclaimer
+Code assisting tools were used to help with error handling and debugging, as well as constructing the manual dataset load for Part 1, which was assumed to be available in the tutorial but would have proven to be unnecessarily time-consuming without any assistance. The tools were also used for recommendations on code structuring and inline documentation.
