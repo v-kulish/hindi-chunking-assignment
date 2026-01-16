@@ -56,3 +56,8 @@ Three models were compared to understand how pre-training domain affects perform
 1.  **Multilingual BERT is Sufficient**: For Hindi Chunking, the standard `distilbert-base-multilingual-cased` is highly effective (96.4% F1), offering a remarkable level of performance without further pre-training.
 2.  **Structure vs. Semantics**: The surprising performance of the English model highlights that Chunking is a highly **structural** task. A model can go a long way just by learning character patterns and label transitions, even without understanding the meaning of words.
 3.  **Joint Classification Works**: The bonus implementation of combining ChunkID and ChunkType (e.g. `NP-head`) was successful, allowing a single model to solve the full task structure with high accuracy.
+
+## Acknowledgments
+- **Tutorial Reference**: The workflow in Part 1 follows the [Hugging Face Token Classification Tutorial](https://huggingface.co/docs/transformers/tasks/token_classification).
+- **Dataset Credit**: The dataset was provided by the university server (Hindi HDTB-UD).
+- **Model Credit**: The fine-tuned Hindi model used in Experiment 3 was provided by `mirfan899` on Hugging Face.
